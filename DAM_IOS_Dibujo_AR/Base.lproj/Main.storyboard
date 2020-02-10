@@ -18,13 +18,13 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Za-aF-qdi">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                             </arscnView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bQ-5f-ki4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bQ-5f-ki4">
                                 <rect key="frame" x="173.5" y="802" width="67" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="5yw-aU-7sr"/>
                                     <constraint firstAttribute="width" constant="67" id="r2k-Fh-QG1"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="paintbrush.fill" catalog="system"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -44,4 +44,7 @@
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="paintbrush.fill" catalog="system" width="64" height="62"/>
+    </resources>
 </document>
