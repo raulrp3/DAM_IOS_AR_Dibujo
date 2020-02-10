@@ -38,6 +38,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="buttonDraw" destination="1bQ-5f-ki4" id="O8n-AK-sLx"/>
+                        <outlet property="mSceneview" destination="4Za-aF-qdi" id="Jdn-OL-o5Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
